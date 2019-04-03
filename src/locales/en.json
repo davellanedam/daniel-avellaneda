@@ -14,7 +14,7 @@
   },
   "services": {
     "TITLE": "Services",
-    "DESCRIPTION": "<p>You can contact me on any of my social networks, Email or <a target='_blank' href='https://web.whatsapp.com/send?phone=573162396392&text=daniel-avellaneda.com'>start a chat with me now</a>. I offer the following services:</p>",
+    "DESCRIPTION": "<p>You can contact me on any of my social networks, Email or <a target='_blank' href='https://api.whatsapp.com/send?phone=573162396392&text=daniel-avellaneda.com'>start a chat with me now</a>. I offer the following services:</p>",
     "WEB_DEVELOPMENT": "Web Development",
     "IT_CONSULTING": "IT Consulting",
     "APP_DESIGN": "App Design",
