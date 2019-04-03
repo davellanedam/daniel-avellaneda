@@ -1,0 +1,59 @@
+{
+  "name": "daniel-avellaneda",
+  "version": "1.0.0",
+  "description": "Daniel Avellaneda - Software Developer & IT Project Manager",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davellanedam/daniel-avellaneda.git"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "format": "prettier --write --config .prettierrc \"**/*.js\"",
+    "lint": "vue-cli-service lint --fix",
+    "remark": "remark . -o"
+  },
+  "dependencies": {
+    "@mdi/font": "^3.5.95",
+    "aos": "^3.0.0-beta.6",
+    "remark-cli": "^6.0.1",
+    "vue": "^2.6.10",
+    "vue-i18n": "^8.10.0",
+    "vue-meta": "^1.6.0",
+    "vue-resize-text": "^0.1.0",
+    "vuetify": "^1.5.9",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@kazupon/vue-i18n-loader": "^0.3.0",
+    "@vue/cli-plugin-babel": "^3.5.5",
+    "@vue/cli-plugin-eslint": "^3.5.1",
+    "@vue/cli-service": "^3.5.3",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-formidable": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "fibers": "^3.1.1",
+    "prettier": "^1.16.4",
+    "sass": "^1.17.3",
+    "sass-loader": "^7.1.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-cli-plugin-i18n": "^0.5.2",
+    "vue-cli-plugin-vuetify": "^0.5.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.2.1"
+  },
+  "keywords": [
+    "vuejs",
+    "vuetify",
+    "javascript",
+    "i18n",
+    "eslint",
+    "async",
+    "await",
+    "prettier"
+  ]
+}
