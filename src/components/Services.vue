@@ -33,15 +33,35 @@
               <div class="mb-2 service-heading" v-text="service.name" />
             </ContentText>
           </v-flex>
-          <v-img
-            contain
-            max-height="150"
-            width="100%"
-            data-aos="fade-up"
-            data-aos-duration="700"
-            :src="require('@/assets/logo.png')"
-            class="mt-5"
-          />
+          <v-flex xs12 text-xs-center mb-3>
+            <a
+              target="_blank"
+              href="https://web.whatsapp.com/send?phone=+573162396392&text=daniel-avellaneda.com"
+            >
+              <v-icon
+                size="52"
+                data-aos="fade-up"
+                data-aos-duration="700"
+                color="white"
+                >mdi-whatsapp</v-icon
+              >
+              <ContentText>
+                <div
+                  class="mb-2 service-heading"
+                  v-html="$t('services.INTERESTED_CHAT_NOW')"
+                />
+              </ContentText>
+            </a>
+            <v-img
+              contain
+              max-height="150"
+              width="100%"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              :src="require('@/assets/logo.png')"
+              class="mt-5"
+            />
+          </v-flex>
         </v-layout>
       </v-flex>
       <v-flex md6>
@@ -82,5 +102,6 @@ export default {
 .service-heading {
   font-family: 'domine-bold', sans-serif !important;
   font-size: 1.2em;
+  color: #ffffff !important;
 }
 </style>

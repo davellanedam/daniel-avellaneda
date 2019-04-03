@@ -14,10 +14,11 @@
   },
   "services": {
     "TITLE": "Servicios",
-    "DESCRIPTION": "<p>Puedes contactarme a cualquiera de mis redes sociales o Email. Ofrezco los siguientes servicios:</p>",
+    "DESCRIPTION": "<p>Puedes contactarme a cualquiera de mis redes sociales, Email o <a target='_blank' href='https://web.whatsapp.com/send?phone=+573162396392&text=daniel-avellaneda.com'>inicia un chat conmigo ahora</a>. Ofrezco los siguientes servicios:</p>",
     "WEB_DEVELOPMENT": "Desarrollo Web",
     "IT_CONSULTING": "Consultoría IT",
     "APP_DESIGN": "Diseño de Apps",
-    "SUPPORT": "Soporte"
+    "SUPPORT": "Soporte",
+    "INTERESTED_CHAT_NOW": "¿Interesado(a)? <br /> Haz click aquí e inicia un chat conmigo ahora"
   }
 }
