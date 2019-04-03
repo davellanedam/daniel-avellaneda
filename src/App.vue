@@ -58,6 +58,11 @@ export default {
     Footer,
     Toolbar,
     Content
+  },
+  methods: {
+    track() {
+      this.$ga.page('/')
+    }
   }
 }
 </script>

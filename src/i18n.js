@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
+import VueAnalytics from 'vue-analytics'
 
+Vue.use(VueAnalytics, {
+  id: 'UA-137710319-1'
+})
 Vue.use(VueI18n)
 
 function loadLocaleMessages() {
