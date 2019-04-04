@@ -1,9 +1,11 @@
 <template>
   <v-app>
     <Toolbar />
-    <v-content>
-      <Content />
-    </v-content>
+    <transition name="fade" mode="out-in" v-on:leave="leave">
+      <v-content v-if="changedLocale">
+        <Content />
+      </v-content>
+    </transition>
     <Footer />
   </v-app>
 </template>
@@ -62,19 +64,27 @@ export default {
   methods: {
     track() {
       this.$ga.page('/')
+    },
+    leave(el, done) {
+      console.log('terminado')
     }
   },
   created() {
     this.track()
+  },
+  computed: {
+    changedLocale() {
+      return this.$store.getters.changedLocale
+    }
   }
 }
 </script>
 
 <style>
 @font-face {
-  font-family: 'domine-regular';
-  src: url('assets/fonts/domine/domine-regular-webfont.woff2') format('woff2'),
-    url('assets/fonts/domine/domine-regular-webfont.woff') format('woff');
+  font-family: 'domine-bold';
+  src: url('assets/fonts/domine/domine-bold-webfont.woff2') format('woff2'),
+    url('assets/fonts/domine/domine-bold-webfont.woff') format('woff');
   font-style: normal;
   font-weight: normal;
 }
@@ -87,13 +97,19 @@ export default {
   font-style: normal;
   font-weight: normal;
 }
-
 body {
   font-family: 'metropolis-regular', sans-serif;
 }
-
 a {
   color: #546e7a !important;
   text-decoration: none;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.1s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
