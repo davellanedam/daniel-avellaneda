@@ -2,23 +2,23 @@
   "welcome": {
     "TITLE": "Desarrollador Web <br> Full Stack",
     "FULL_STACK_WEB_DEVELOPER": "Desarrollador Web Full Stack",
-    "DESCRIPTION": "<p>Experiencia sólida y conocimiento avanzado en <strong>desarrollo web</strong>. Desde hace más de 17 años, diseño, desarrollo y administro proyectos en Tecnologías de la Información. </p> <p> <strong>Objetivos alcanzados:</strong> Desarrollo y consultoría para empresas como: Dell, Intel, Manpower Inc, Huawei, World Trade Center, Exxon Mobil, Blackberry y muchos otros.</p>"
+    "DESCRIPTION": "<p>Experiencia sólida y conocimiento avanzado en <strong>desarrollo web</strong>. Desde hace más de 17 años Daniel diseña, desarrolla y administra proyectos en Tecnologías de la Información. </p> <p> <strong>Objetivos alcanzados:</strong> Desarrollo y consultoría para empresas como: Dell, Intel, Manpower Inc, Huawei, World Trade Center, Exxon Mobil, Blackberry y muchos otros.</p>"
   },
   "about_me": {
     "TITLE": "Acerca de mi",
-    "DESCRIPTION": "<p>Comencé a programar a los 11 años, simplemente amo hablarle a las máquinas.</p> <p>Aprendo ultra rápido, autodidacta. Mi pasión es construir tecnología que le haga fácil la vida a las personas.</p> <p>Estoy enamorado de JavaScript y contribuyo con las comunidad de código abierto. También se algunas cosas como:</p>"
+    "DESCRIPTION": "<p>Daniel es apasionado por la programación. Lo hace desde que tenía 11 años, simplemente ama hablarle a las máquinas.</p> <p>Con un grado de telecomunicaciones Daniel ha expandido su campo de acción incorporando su habilidad natural en programación en la mejora de la efectividad y entrega de soluciones para el mundo de hoy. Aprende ultra rápido, autodidacta. Su pasión es construir tecnología que le haga fácil la vida a las personas.</p> <p>Experto en JavaScript y contribuyente con la comunidad de código abierto. También sabe algunas cosas como:</p>"
   },
   "open_source": {
     "TITLE": "Código Abierto",
-    "DESCRIPTION": "<p>Actualmente soy un entusiasta del código abierto y dedico mi tiempo libre a proyectos de código abierto.</p> <p>Soy el creador de <strong>node-express-mongodb-jwt-rest-api-skeleton</strong> y <strong>vue-skeleton-mvp</strong> ambos con miles de descargas.</p><p>Estos proyectos son lo que llamo \"Combo de inicio de tu web app\": <br />API + Frontend</p><div><strong>node-express-mongodb-jwt-rest-api-skeleton</strong></div><div><a target='_blank' href='https://github.com/davellanedam/node-express-mongodb-jwt-rest-api-skeleton'>Repositorio GitHub</a> / <a target='_blank' href='https://api-demo.daniel-avellaneda.com'>Demo en Vivo</a></div><div class='mt-3'><strong>vue-skeleton-mvp</strong></div><div><a target='_blank' href='https://github.com/davellanedam/vue-skeleton-mvp'>Repositorio GitHub</a> / <a target='_blank' href='https://vue-demo.daniel-avellaneda.com'>Demo en Vivo</a></div>"
+    "DESCRIPTION": "<p>Actualmente es un entusiasta del código abierto y dedica su tiempo libre a proyectos de código abierto.</p> <p>Daniel es el creador de <strong>node-express-mongodb-jwt-rest-api-skeleton</strong> y <strong>vue-skeleton-mvp</strong> ambos con miles de descargas.</p><p>Estos proyectos son un \"Combo de inicio de tu web app\": <br />API + Frontend</p><div><strong>node-express-mongodb-jwt-rest-api-skeleton</strong></div><div><a target='_blank' href='https://github.com/davellanedam/node-express-mongodb-jwt-rest-api-skeleton'>Repositorio GitHub</a> / <a target='_blank' href='https://api-demo.daniel-avellaneda.com'>Demo en Vivo</a></div><div class='mt-3'><strong>vue-skeleton-mvp</strong></div><div><a target='_blank' href='https://github.com/davellanedam/vue-skeleton-mvp'>Repositorio GitHub</a> / <a target='_blank' href='https://vue-demo.daniel-avellaneda.com'>Demo en Vivo</a></div>"
   },
   "services": {
     "TITLE": "Servicios",
-    "DESCRIPTION": "<p>Puedes contactarme a cualquiera de mis redes sociales, Email o <a target='_blank' href='https://api.whatsapp.com/send?phone=573162396392&text=daniel-avellaneda.com'>inicia un chat conmigo ahora</a>. Ofrezco los siguientes servicios:</p>",
+    "DESCRIPTION": "<p>Para más información contacta a Daniel en cualquiera de sus redes sociales, Email o <a target='_blank' href='https://api.whatsapp.com/send?phone=573162396392&text=daniel-avellaneda.com'>inicia un chat con él ahora</a>. Los siguientes servicios son ofrecidos:</p>",
     "WEB_DEVELOPMENT": "Desarrollo Web",
     "IT_CONSULTING": "Consultoría IT",
     "APP_DESIGN": "Diseño de Apps",
     "SUPPORT": "Soporte",
-    "INTERESTED_CHAT_NOW": "¿Interesado(a)? <br /> Haz click aquí e inicia un chat conmigo ahora"
+    "INTERESTED_CHAT_NOW": "¿Interesado(a)? <br /> Haz click aquí e inicia un chat con Daniel ahora"
   }
 }
