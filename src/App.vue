@@ -63,6 +63,9 @@ export default {
     track() {
       this.$ga.page('/')
     }
+  },
+  created() {
+    this.track()
   }
 }
 </script>
