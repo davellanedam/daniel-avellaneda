@@ -8,15 +8,7 @@
         <v-layout align-center justify-center fill-height wrap>
           <LocaleChanger />
           <v-flex xs12 pl-5 pr-5 pt-0 pb-5>
-            <v-img
-              contain
-              max-height="150"
-              width="100%"
-              data-aos="fade-up"
-              data-aos-duration="700"
-              :src="require('@/assets/logo.png')"
-              class="mt-2"
-            />
+            <Logo class="mt-2" />
             <Subheading>/* DANIEL AVELLANEDA */</Subheading>
             <Heading v-html="$t('welcome.TITLE')" />
             <ContentText v-html="$t('welcome.PARAGRAPH_1')" />

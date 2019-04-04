@@ -52,15 +52,7 @@
                 />
               </ContentText>
             </a>
-            <v-img
-              contain
-              max-height="150"
-              width="100%"
-              data-aos="fade-up"
-              data-aos-duration="700"
-              :src="require('@/assets/logo.png')"
-              class="mt-5"
-            />
+            <Logo class="mt-5" />
           </v-flex>
         </v-layout>
       </v-flex>
