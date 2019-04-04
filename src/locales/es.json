@@ -1,5 +1,6 @@
 {
   "welcome": {
+    "HOME": "Inicio",
     "TITLE": "Desarrollador Web <br> Full Stack",
     "FULL_STACK_WEB_DEVELOPER": "Desarrollador Web Full Stack",
     "PARAGRAPH_1": "<p>Experiencia sólida y conocimiento avanzado en <strong>desarrollo web</strong>. Desde hace más de 17 años Daniel diseña, desarrolla y administra proyectos en Tecnologías de la Información.</p>",
@@ -15,8 +16,7 @@
     "PARAGRAPH_1": "<p>Actualmente es un entusiasta del código abierto y dedica su tiempo libre a proyectos de código abierto.</p>",
     "PARAGRAPH_2": "<p>Daniel es el creador de <strong>\"node-express-mongodb-jwt-rest-api-skeleton\"</strong> y <strong>\"vue-skeleton-mvp\"</strong> ambos proyectos han sido descargados por miles de programadores alrededor del mundo.</p>",
     "PARAGRAPH_3": "<p>Estos proyectos son un \"Combo aplicación web\" para cualquier desarrollador web que quiera construir su propia aplicación sin comenzar desde cero: API + Frontend</p>",
-    "PARAGRAPH_4": "<h2>API (NodeJS, ExpressJS, MongoDB)</h2> <div><strong>node-express-mongodb-jwt-rest-api-skeleton</strong></div> <div><a target='_blank' href='https://github.com/davellanedam/node-express-mongodb-jwt-rest-api-skeleton'>Repositorio GitHub</a> / <a target='_blank' href='https://api-demo.daniel-avellaneda.com'>Demo en Vivo</a></div>",
-    "PARAGRAPH_5": "<h2 class='mt-3'>Frontend (VueJS)</h2> <div><strong>vue-skeleton-mvp</strong></div> <div><a target='_blank' href='https://github.com/davellanedam/vue-skeleton-mvp'>Repositorio GitHub</a> / <a target='_blank' href='https://vue-demo.daniel-avellaneda.com'>Demo en Vivo</a></div>"
+    "PARAGRAPH_4": "<h2>API (NodeJS, ExpressJS, MongoDB)</h2> <div><strong>node-express-mongodb-jwt-rest-api-skeleton</strong></div> <div><a target='_blank' href='https://github.com/davellanedam/node-express-mongodb-jwt-rest-api-skeleton'>Repositorio GitHub</a> / <a target='_blank' href='https://api-demo.daniel-avellaneda.com'>Demo en Vivo</a></div><h2 class='mt-3'>Frontend (VueJS)</h2> <div><strong>vue-skeleton-mvp</strong></div> <div><a target='_blank' href='https://github.com/davellanedam/vue-skeleton-mvp'>Repositorio GitHub</a> / <a target='_blank' href='https://vue-demo.daniel-avellaneda.com'>Demo en Vivo</a></div>"
   },
   "services": {
     "TITLE": "Servicios",

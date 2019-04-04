@@ -17,7 +17,6 @@
             <ContentText class="mb-5" v-html="$t('open_source.PARAGRAPH_2')" />
             <ContentText class="mb-5" v-html="$t('open_source.PARAGRAPH_3')" />
             <ContentText class="mb-5" v-html="$t('open_source.PARAGRAPH_4')" />
-            <ContentText class="mb-5" v-html="$t('open_source.PARAGRAPH_5')" />
           </v-flex>
         </v-layout>
       </v-flex>

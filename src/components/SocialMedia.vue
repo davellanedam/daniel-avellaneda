@@ -4,14 +4,15 @@
       <v-btn
         flat
         icon
-        class="ma-2"
+        :small="small"
+        :class="customClass"
         color="grey darken-1"
         :href="item.link"
         target="_blank"
         :key="i"
         slot="activator"
       >
-        <v-icon dark v-text="item.icon" />
+        <v-icon :small="small" dark v-text="item.icon" />
       </v-btn>
       <span>{{ item.name }}</span>
     </v-tooltip>
@@ -23,7 +24,9 @@ export default {
   name: 'SocialMedia',
   props: {
     bottom: Boolean,
-    top: Boolean
+    top: Boolean,
+    customClass: String,
+    small: String
   },
   data() {
     return {

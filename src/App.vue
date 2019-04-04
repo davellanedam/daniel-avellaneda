@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <Toolbar />
-    <transition name="fade" mode="out-in" v-on:leave="leave">
+    <transition name="fade" mode="out-in">
       <v-content v-if="changedLocale">
         <Content />
       </v-content>
