@@ -64,9 +64,6 @@ export default {
   methods: {
     track() {
       this.$ga.page('/')
-    },
-    leave(el, done) {
-      console.log('terminado')
     }
   },
   created() {
