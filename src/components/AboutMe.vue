@@ -8,7 +8,8 @@
     <v-layout light-blue lighten-2 white--text>
       <v-flex xs12 md6 pa-5>
         <Heading v-html="$t('about_me.TITLE')" />
-        <ContentText class="mb-5" v-html="$t('about_me.DESCRIPTION')" />
+        <ContentText v-html="$t('about_me.PARAGRAPH_1')" />
+        <ContentText v-html="$t('about_me.PARAGRAPH_2')" />
         <v-layout
           v-for="(skill, i) in skills"
           :key="i"

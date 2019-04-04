@@ -19,7 +19,8 @@
             />
             <Subheading>/* DANIEL AVELLANEDA */</Subheading>
             <Heading v-html="$t('welcome.TITLE')" />
-            <ContentText v-html="$t('welcome.DESCRIPTION')" />
+            <ContentText v-html="$t('welcome.PARAGRAPH_1')" />
+            <ContentText v-html="$t('welcome.PARAGRAPH_2')" />
           </v-flex>
         </v-layout>
       </v-flex>

@@ -2,15 +2,21 @@
   "welcome": {
     "TITLE": "Full Stack <p> Web Developer",
     "FULL_STACK_WEB_DEVELOPER": "Full Stack Web Developer",
-    "DESCRIPTION": "<p>Solid background and advanced knowledge in <strong>web development</strong>. For over 17 years, Daniel has been designing, developing and managing projects in IT.</p> <p><strong>Achieved goals:</strong> Developing and consulting for companies like: Dell, Intel, Manpower Inc, Huawei, World Trade Center, Exxon Mobil, Blackberry, and many others.</p>"
+    "PARAGRAPH_1": "<p>Solid background and advanced knowledge in <strong>web development</strong>. For over 17 years, Daniel has been designing, developing and managing projects in IT.</p>",
+    "PARAGRAPH_2": "<p><strong>Achieved goals:</strong> Developing and consulting for companies like: Dell, Intel, Manpower Inc, Huawei, World Trade Center, Exxon Mobil, Blackberry, and many others.</p>"
   },
   "about_me": {
     "TITLE": "About me",
-    "DESCRIPTION": "<p>Daniel has been coding since age 11 and pursued his interest in technology by earning a degree in telecommunications. Daniel is passionate about creating value for people using his diverse and deep skills in software development - helping people do things cheaper, better and faster.</p> <p>Expert in JavaScript and contributor of the open source community. Also knows a few things like:</p > "
+    "PARAGRAPH_1": "<p>Daniel has been coding since age 11 and pursued his interest in technology by earning a degree in telecommunications. Daniel is passionate about creating value for people using his diverse and deep skills in software development - helping people do things cheaper, better and faster.</p>",
+    "PARAGRAPH_2": "<p>Expert in JavaScript and contributor of the open source community. Also knows a few things like:</p>"
   },
   "open_source": {
     "TITLE": "Open Source",
-    "DESCRIPTION": "<p>Currently an open source enthusiast and dedicate he's free time to open source projects.</p> <p>Daniel is the creator and maintainer of <strong>\"node-express-mongodb-jwt-rest-api-skeleton\"</strong> and <strong>\"vue-skeleton-mvp\"</strong> both projects have been downloaded thousands of times by web developers around the world.</p> <p>These projects are a \"Starter web app combo\" for any web developer who wants to build their own app without starting from scratch: API + Frontend </p> <h2>API (NodeJS, ExpressJS, MongoDB)</h2> <div>node-express-mongodb-jwt-rest-api-skeleton</div> <div><a target='_blank' href='https://github.com/davellanedam/node-express-mongodb-jwt-rest-api-skeleton'>GitHub Repository</a> / <a target='_blank' href='https://api-demo.daniel-avellaneda.com'>Live Demo</a></div> <h2 class='mt-3'>Frontend (VueJS)</h2><div> vue-skeleton-mvp</div> <div><a target='_blank' href='https://github.com/davellanedam/vue-skeleton-mvp'>GitHub Repository</a> / <a target='_blank ' href='https://vue-demo.daniel-avellaneda.com'>Live Demo</a></div>"
+    "PARAGRAPH_1": "<p>Currently an open source enthusiast and dedicate he's free time to open source projects.</p>",
+    "PARAGRAPH_2": "<p>Daniel is the creator and maintainer of <strong>\"node-express-mongodb-jwt-rest-api-skeleton\"</strong> and <strong>\"vue-skeleton-mvp\"</strong> both projects have been downloaded thousands of times by web developers around the world.</p>",
+    "PARAGRAPH_3": "<p>These projects are a \"Starter web app combo\" for any web developer who wants to build their own app without starting from scratch: API + Frontend </p>",
+    "PARAGRAPH_4": "<h2>API (NodeJS, ExpressJS, MongoDB)</h2> <div>node-express-mongodb-jwt-rest-api-skeleton</div> <div><a target='_blank' href='https://github.com/davellanedam/node-express-mongodb-jwt-rest-api-skeleton'>GitHub Repository</a> / <a target='_blank' href='https://api-demo.daniel-avellaneda.com'>Live Demo</a></div>",
+    "PARAGRAPH_5": "<h2 class='mt-3'>Frontend (VueJS)</h2><div> vue-skeleton-mvp</div> <div><a target='_blank' href='https://github.com/davellanedam/vue-skeleton-mvp'>GitHub Repository</a> / <a target='_blank' href='https://vue-demo.daniel-avellaneda.com'>Live Demo</a></div>"
   },
   "services": {
     "TITLE": "Services",
