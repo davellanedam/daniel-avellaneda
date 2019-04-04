@@ -1,5 +1,5 @@
 <template>
-  <v-flex xs12 pt-4 text-xs-center>
+  <v-flex xs12 pt-4 text-xs-center id="locale">
     <a class="black--text" @click="switchLocale('en')">English</a> /
     <a class="black--text" @click="switchLocale('es')">Español</a>
   </v-flex>
@@ -11,6 +11,7 @@ export default {
   methods: {
     switchLocale(lang) {
       this.$store.dispatch('setLocale', lang)
+      this.$scrollTo('#locale')
     }
   },
   computed: {

@@ -1,11 +1,13 @@
 import Vue from 'vue'
-import VueI18n from 'vue-i18n'
 import VueAnalytics from 'vue-analytics'
+import VueI18n from 'vue-i18n'
+import VueScrollTo from 'vue-scrollto'
 
 Vue.use(VueAnalytics, {
   id: 'UA-137710319-1'
 })
 Vue.use(VueI18n)
+Vue.use(VueScrollTo)
 
 function loadLocaleMessages() {
   const locales = require.context(
