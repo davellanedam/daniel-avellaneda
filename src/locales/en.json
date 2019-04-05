@@ -17,7 +17,9 @@
     "PARAGRAPH_2": "<p>He is the creator and maintainer of <strong>\"node-express-mongodb-jwt-rest-api-skeleton\"</strong> and <strong>\"vue-skeleton-mvp\"</strong>.</p>",
     "PARAGRAPH_3": "<p>These projects are a \"starter web app kit\" for any developer who wants to build their own app without starting from scratch: API + Frontend </p>",
     "PARAGRAPH_4": "<p>Both projects have been downloaded thousands of times by web developers around the world.</p>",
-    "PARAGRAPH_5": "<h2>API (NodeJS, ExpressJS, MongoDB)</h2> <div>node-express-mongodb-jwt-rest-api-skeleton</div> <div><a target='_blank' href='https://github.com/davellanedam/node-express-mongodb-jwt-rest-api-skeleton'>GitHub Repository</a> / <a target='_blank' href='https://api-demo.daniel-avellaneda.com'>Live Demo</a></div><h2 class='mt-3'>Frontend (VueJS)</h2><div> vue-skeleton-mvp</div> <div><a target='_blank' href='https://github.com/davellanedam/vue-skeleton-mvp'>GitHub Repository</a> / <a target='_blank' href='https://vue-demo.daniel-avellaneda.com'>Live Demo</a></div>"
+    "GITHUB_REPOSITORY": "GitHub Repository",
+    "LIVE_DEMO": "Live Demo",
+    "GITHUB_STARS": "stars at GitHub"
   },
   "services": {
     "TITLE": "Services",
