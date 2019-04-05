@@ -29,7 +29,7 @@ function loadLocaleMessages() {
 }
 
 export default new VueI18n({
-  locale: navigator.language || 'en',
+  locale: navigator.language.slice(0, 2) || 'en',
   fallbackLocale: 'en',
   messages: loadLocaleMessages()
 })
