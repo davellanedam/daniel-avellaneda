@@ -19,7 +19,8 @@
     "PARAGRAPH_4": "<p>Both projects have been downloaded thousands of times by web developers around the world.</p>",
     "GITHUB_REPOSITORY": "GitHub Repository",
     "LIVE_DEMO": "Live Demo",
-    "GITHUB_STARS": "stars on GitHub"
+    "STARS_ON_GITHUB": "stars on GitHub",
+    "DOWNLOADS_ON_NPM": "downloads on NPM"
   },
   "services": {
     "TITLE": "Services",

@@ -21,7 +21,11 @@
               <h2>API (NodeJS, ExpressJS, MongoDB)</h2>
               <div v-show="apiStars !== 0">
                 <v-icon class="white--text">mdi-star</v-icon>
-                {{ apiStars }} {{ $t('open_source.GITHUB_STARS') }}
+                {{ apiStars }} {{ $t('open_source.STARS_ON_GITHUB') }}
+              </div>
+              <div v-show="apiDownloads !== 0">
+                <v-icon class="white--text">mdi-cloud-download</v-icon>
+                {{ apiDownloads }} {{ $t('open_source.DOWNLOADS_ON_NPM') }}
               </div>
               <div>
                 <a
@@ -39,7 +43,11 @@
               <h2 class="mt-3">Frontend (VueJS)</h2>
               <div v-show="frontendStars !== 0">
                 <v-icon class="white--text">mdi-star</v-icon>
-                {{ frontendStars }} {{ $t('open_source.GITHUB_STARS') }}
+                {{ frontendStars }} {{ $t('open_source.STARS_ON_GITHUB') }}
+              </div>
+              <div v-show="frontendDownloads !== 0">
+                <v-icon class="white--text">mdi-cloud-download</v-icon>
+                {{ frontendDownloads }} {{ $t('open_source.DOWNLOADS_ON_NPM') }}
               </div>
               <div>
                 <a
@@ -69,19 +77,40 @@ export default {
   name: 'OpenSource',
   computed: {
     apiStars() {
-      return this.$store.state.github.apiStars
+      return this.$store.state.github.apiStars.toLocaleString(
+        this.$store.getters.locale
+      )
+    },
+    apiDownloads() {
+      return this.$store.state.npm.apiDownloads.toLocaleString(
+        this.$store.getters.locale
+      )
     },
     frontendStars() {
-      return this.$store.state.github.frontendStars
+      return this.$store.state.github.frontendStars.toLocaleString(
+        this.$store.getters.locale
+      )
+    },
+    frontendDownloads() {
+      return this.$store.state.npm.frontendDownloads.toLocaleString(
+        this.$store.getters.locale
+      )
     }
   },
   methods: {
-    ...mapActions(['getApiStargazers', 'getFrontendStargazers'])
+    ...mapActions([
+      'getApiStargazers',
+      'getApiDownloads',
+      'getFrontendStargazers',
+      'getFrontendDownloads'
+    ])
   },
   async created() {
     try {
       await this.getApiStargazers()
+      await this.getApiDownloads()
       await this.getFrontendStargazers()
+      await this.getFrontendDownloads()
       // eslint-disable-next-line no-unused-vars
     } catch (error) {
       return
