@@ -24,7 +24,7 @@ module.exports = {
       }
       options[0].include = 'allAssets'
       // options[0].fileWhitelist: [/\.files/, /\.to/, /\.include/]
-      options[0].fileBlacklist = [/\.js/]
+      options[0].fileBlacklist = [/\.js/, /\.jpg/, /\.png/, /\.css/]
       return options
     })
   }
