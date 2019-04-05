@@ -51,19 +51,19 @@
             <v-list-tile-content>{{ $t('welcome.HOME') }}</v-list-tile-content>
           </v-list-tile>
           <v-list-tile @click="scrollTo('#about')">
-            <v-list-tile-content>
-              {{ $t('about_me.TITLE') }}
-            </v-list-tile-content>
+            <v-list-tile-content>{{
+              $t('about_me.TITLE')
+            }}</v-list-tile-content>
           </v-list-tile>
           <v-list-tile @click="scrollTo('#open-source')">
-            <v-list-tile-content>{{
-              $t('open_source.TITLE')
-            }}</v-list-tile-content>
+            <v-list-tile-content>
+              {{ $t('open_source.TITLE') }}
+            </v-list-tile-content>
           </v-list-tile>
           <v-list-tile @click="scrollTo('#services')">
-            <v-list-tile-content>{{
-              $t('services.TITLE')
-            }}</v-list-tile-content>
+            <v-list-tile-content>
+              {{ $t('services.TITLE') }}
+            </v-list-tile-content>
           </v-list-tile>
         </v-list>
         <div class="text-xs-center mt-2">
