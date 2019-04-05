@@ -1,3 +1,6 @@
 // locale
 export const SET_LOCALE = 'SET_LOCALE'
 export const CHANGED_LOCALE = 'CHANGED_LOCALE'
+// github
+export const API_STARGAZERS = 'API_STARGAZERS'
+export const FRONTEND_STARGAZERS = 'FRONTEND_STARGAZERS'
