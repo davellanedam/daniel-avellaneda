@@ -2,7 +2,10 @@ import * as types from '@/store/mutation-types'
 import i18n from '@/i18n'
 
 const state = {
-  locale: JSON.parse(localStorage.getItem('locale')) || 'en',
+  locale:
+    JSON.parse(localStorage.getItem('locale')) ||
+    navigator.language.slice(0, 2) ||
+    'en',
   changedLocale: true
 }
 
