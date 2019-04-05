@@ -34,6 +34,7 @@
     "@vue/cli-plugin-eslint": "^3.5.1",
     "@vue/cli-service": "^3.5.3",
     "@vue/eslint-config-prettier": "^4.0.1",
+    "@vue/preload-webpack-plugin": "^1.1.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-config-formidable": "^4.0.0",
