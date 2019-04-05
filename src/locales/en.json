@@ -21,7 +21,6 @@
   },
   "services": {
     "TITLE": "Services",
-    "DESCRIPTION": "<p>The following services are offered:</p>",
     "WEB_DEVELOPMENT": "Web Development",
     "IT_CONSULTING": "IT Consulting",
     "APP_DESIGN": "App Design",

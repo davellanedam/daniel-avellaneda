@@ -10,7 +10,6 @@
         <v-layout>
           <v-flex xs12>
             <Heading v-html="$t('services.TITLE')" />
-            <ContentText class="mb-5" v-html="$t('services.DESCRIPTION')" />
           </v-flex>
         </v-layout>
         <v-layout align-center justify-center wrap>

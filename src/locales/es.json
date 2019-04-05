@@ -21,7 +21,6 @@
   },
   "services": {
     "TITLE": "Servicios",
-    "DESCRIPTION": "<p>Ofrece los siguientes servicios:</p>",
     "WEB_DEVELOPMENT": "Desarrollo Web",
     "IT_CONSULTING": "Consultoría IT",
     "APP_DESIGN": "Diseño de Apps",
