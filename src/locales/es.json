@@ -9,23 +9,23 @@
     "TITLE": "Acerca de mi",
     "PARAGRAPH_1": "<p>Daniel ha programado desde los 11 años, enfocando su interés en la tecnología, obteniendo así, un título en telecomunicaciones.</p>",
     "PARAGRAPH_2": "<p>Apasionado por crear valor agregado para las personas, usa sus habilidades en desarrollo de software para ayudarles a resolver sus necesidades de manera eficaz y rápida.</p>",
-    "PARAGRAPH_3": "<p>Experto en JavaScript y contribuyente con la comunidad de código abierto; maneja tecnologías tales como:</p>"
+    "PARAGRAPH_3": "<p>Experto en JavaScript y contribuyente en la comunidad de código abierto, maneja tecnologías tales como:</p>"
   },
   "open_source": {
     "TITLE": "Código Abierto",
     "PARAGRAPH_1": "<p>Daniel es un entusiasta del código abierto y dedica su tiempo libre a construir proyectos en este campo.</p>",
     "PARAGRAPH_2": "<p>Es el creador de <strong>\"node-express-mongodb-jwt-rest-api-skeleton\"</strong> y <strong>\"vue-skeleton-mvp\"</strong>.</p>",
-    "PARAGRAPH_3": "<p>Ambos proyectos han sido descargados por miles de programadores alrededor del mundo.</p>",
-    "PARAGRAPH_4": "<p>Estos proyectos son un \"Combo aplicación web\" para cualquier desarrollador web que quiera construir su propia aplicación sin comenzar desde cero: API + Frontend</p>",
+    "PARAGRAPH_3": "<p>Estos proyectos son un \"combo aplicación web\" para cualquier desarrollador que quiera construir su propia aplicación sin comenzar desde cero: API + Frontend</p>",
+    "PARAGRAPH_4": "<p>Ambos proyectos han sido descargados por miles de programadores alrededor del mundo.</p>",
     "PARAGRAPH_5": "<h2>API (NodeJS, ExpressJS, MongoDB)</h2> <div><strong>node-express-mongodb-jwt-rest-api-skeleton</strong></div> <div><a target='_blank' href='https://github.com/davellanedam/node-express-mongodb-jwt-rest-api-skeleton'>Repositorio GitHub</a> / <a target='_blank' href='https://api-demo.daniel-avellaneda.com'>Demo en Vivo</a></div><h2 class='mt-3'>Frontend (VueJS)</h2> <div><strong>vue-skeleton-mvp</strong></div> <div><a target='_blank' href='https://github.com/davellanedam/vue-skeleton-mvp'>Repositorio GitHub</a> / <a target='_blank' href='https://vue-demo.daniel-avellaneda.com'>Demo en Vivo</a></div>"
   },
   "services": {
     "TITLE": "Servicios",
-    "DESCRIPTION": "<p>Para más información contacta a Daniel en cualquiera de sus redes sociales, Email o <a target='_blank' href='https://api.whatsapp.com/send?phone=573162396392&text=daniel-avellaneda.com'>inicia un chat con él ahora</a>. Ofrece los siguientes servicios:</p>",
+    "DESCRIPTION": "<p>Ofrece los siguientes servicios:</p>",
     "WEB_DEVELOPMENT": "Desarrollo Web",
     "IT_CONSULTING": "Consultoría IT",
     "APP_DESIGN": "Diseño de Apps",
     "SUPPORT": "Soporte",
-    "INTERESTED_CHAT_NOW": "¿Interesado(a)? <br /> Haz click aquí e inicia un chat con Daniel ahora"
+    "INTERESTED_CHAT_NOW": "¿Interesad@? <br /> ¡Haz click aquí e inicia un chat con Daniel ahora!"
   }
 }
