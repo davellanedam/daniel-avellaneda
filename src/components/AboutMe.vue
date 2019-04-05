@@ -10,6 +10,7 @@
         <Heading v-html="$t('about_me.TITLE')" />
         <ContentText v-html="$t('about_me.PARAGRAPH_1')" />
         <ContentText v-html="$t('about_me.PARAGRAPH_2')" />
+        <ContentText v-html="$t('about_me.PARAGRAPH_3')" />
         <v-layout
           v-for="(skill, i) in skills"
           :key="i"

@@ -13,10 +13,11 @@
         <v-layout align-center justify-center fill-height wrap>
           <v-flex xs12 pa-5>
             <Heading v-html="$t('open_source.TITLE')" />
-            <ContentText class="mb-5" v-html="$t('open_source.PARAGRAPH_1')" />
-            <ContentText class="mb-5" v-html="$t('open_source.PARAGRAPH_2')" />
-            <ContentText class="mb-5" v-html="$t('open_source.PARAGRAPH_3')" />
-            <ContentText class="mb-5" v-html="$t('open_source.PARAGRAPH_4')" />
+            <ContentText v-html="$t('open_source.PARAGRAPH_1')" />
+            <ContentText v-html="$t('open_source.PARAGRAPH_2')" />
+            <ContentText v-html="$t('open_source.PARAGRAPH_3')" />
+            <ContentText v-html="$t('open_source.PARAGRAPH_4')" />
+            <ContentText v-html="$t('open_source.PARAGRAPH_5')" />
           </v-flex>
         </v-layout>
       </v-flex>

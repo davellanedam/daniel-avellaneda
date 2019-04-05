@@ -42,12 +42,12 @@
                 size="52"
                 data-aos="fade-up"
                 data-aos-duration="700"
-                color="white"
+                class="grey--text text--darken-1"
                 >mdi-whatsapp</v-icon
               >
               <ContentText>
                 <div
-                  class="mb-2 service-heading"
+                  class="mb-2 service-heading grey--text text--darken-1"
                   v-html="$t('services.INTERESTED_CHAT_NOW')"
                 />
               </ContentText>
@@ -94,6 +94,5 @@ export default {
 .service-heading {
   font-family: 'domine-bold', sans-serif !important;
   font-size: 1.2em;
-  color: #ffffff !important;
 }
 </style>

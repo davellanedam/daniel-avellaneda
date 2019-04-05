@@ -3,20 +3,21 @@
     "HOME": "Inicio",
     "TITLE": "Desarrollador Web <br> Full Stack",
     "FULL_STACK_WEB_DEVELOPER": "Desarrollador Web Full Stack",
-    "PARAGRAPH_1": "<p>Experiencia sólida y conocimiento avanzado en <strong>desarrollo web</strong>. Desde hace más de 17 años Daniel diseña, desarrolla y administra proyectos en Tecnologías de la Información.</p>",
-    "PARAGRAPH_2": "<p><strong>Objetivos alcanzados:</strong> Desarrollo y consultoría para empresas como: Dell, Intel, Manpower Inc, Huawei, World Trade Center, Exxon Mobil, Blackberry y muchos otros.</p>"
+    "PARAGRAPH_1": "<p>Daniel tiene una sólida experiencia y conocimiento avanzado en desarrollo web. Por más de 17 años ha diseñado, desarrollado y administrado proyectos en Tecnologías de la Información para empresas como: Dell, Intel, Manpower Inc, Huawei, World Trade Center, Exxon Mobil, Blackberry y muchos otros.</p>"
   },
   "about_me": {
     "TITLE": "Acerca de mi",
-    "PARAGRAPH_1": "<p>Daniel ha programado desde los 11 años y ha enfocado su interés en la tecnología obteniendo un grado de telecomunicaciones. Daniel es apasionado por crear valor para las personas usando sus profundas y diversas habilidades en desarrollo de software - ayudando a las personas a resolver sus necesidades mejor y más rápido.</p>",
-    "PARAGRAPH_2": "<p>Experto en JavaScript y contribuyente con la comunidad de código abierto. También sabe algunas cosas como:</p>"
+    "PARAGRAPH_1": "<p>Daniel ha programado desde los 11 años y ha enfocado su interés en la tecnología obteniendo un grado de telecomunicaciones.</p>",
+    "PARAGRAPH_2": "<p>Él es apasionado por crear valor para las personas usando sus profundas y diversas habilidades en desarrollo de software - ayudando a las personas a resolver sus necesidades mejor y más rápido.</p>",
+    "PARAGRAPH_3": "<p>Experto en JavaScript y contribuyente con la comunidad de código abierto. También sabe algunas cosas como:</p>"
   },
   "open_source": {
     "TITLE": "Código Abierto",
-    "PARAGRAPH_1": "<p>Actualmente es un entusiasta del código abierto y dedica su tiempo libre a proyectos de código abierto.</p>",
-    "PARAGRAPH_2": "<p>Daniel es el creador de <strong>\"node-express-mongodb-jwt-rest-api-skeleton\"</strong> y <strong>\"vue-skeleton-mvp\"</strong> ambos proyectos han sido descargados por miles de programadores alrededor del mundo.</p>",
-    "PARAGRAPH_3": "<p>Estos proyectos son un \"Combo aplicación web\" para cualquier desarrollador web que quiera construir su propia aplicación sin comenzar desde cero: API + Frontend</p>",
-    "PARAGRAPH_4": "<h2>API (NodeJS, ExpressJS, MongoDB)</h2> <div><strong>node-express-mongodb-jwt-rest-api-skeleton</strong></div> <div><a target='_blank' href='https://github.com/davellanedam/node-express-mongodb-jwt-rest-api-skeleton'>Repositorio GitHub</a> / <a target='_blank' href='https://api-demo.daniel-avellaneda.com'>Demo en Vivo</a></div><h2 class='mt-3'>Frontend (VueJS)</h2> <div><strong>vue-skeleton-mvp</strong></div> <div><a target='_blank' href='https://github.com/davellanedam/vue-skeleton-mvp'>Repositorio GitHub</a> / <a target='_blank' href='https://vue-demo.daniel-avellaneda.com'>Demo en Vivo</a></div>"
+    "PARAGRAPH_1": "<p>Daniel es un entusiasta del código abierto y dedica su tiempo libre a construir proyectos de código abierto.</p>",
+    "PARAGRAPH_2": "<p>Él es el creador de <strong>\"node-express-mongodb-jwt-rest-api-skeleton\"</strong> y <strong>\"vue-skeleton-mvp\"</strong>.</p>",
+    "PARAGRAPH_3": "<p>Ambos proyectos han sido descargados por miles de programadores alrededor del mundo.</p>",
+    "PARAGRAPH_4": "<p>Estos proyectos son un \"Combo aplicación web\" para cualquier desarrollador web que quiera construir su propia aplicación sin comenzar desde cero: API + Frontend</p>",
+    "PARAGRAPH_5": "<h2>API (NodeJS, ExpressJS, MongoDB)</h2> <div><strong>node-express-mongodb-jwt-rest-api-skeleton</strong></div> <div><a target='_blank' href='https://github.com/davellanedam/node-express-mongodb-jwt-rest-api-skeleton'>Repositorio GitHub</a> / <a target='_blank' href='https://api-demo.daniel-avellaneda.com'>Demo en Vivo</a></div><h2 class='mt-3'>Frontend (VueJS)</h2> <div><strong>vue-skeleton-mvp</strong></div> <div><a target='_blank' href='https://github.com/davellanedam/vue-skeleton-mvp'>Repositorio GitHub</a> / <a target='_blank' href='https://vue-demo.daniel-avellaneda.com'>Demo en Vivo</a></div>"
   },
   "services": {
     "TITLE": "Servicios",
