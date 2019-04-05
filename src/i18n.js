@@ -28,6 +28,8 @@ function loadLocaleMessages() {
   return messages
 }
 
+console.log(navigator.language.slice(0, 2))
+
 export default new VueI18n({
   locale: navigator.language.slice(0, 2) || 'en',
   fallbackLocale: 'en',
