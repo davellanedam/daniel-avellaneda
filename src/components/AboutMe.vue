@@ -11,24 +11,24 @@
         <ContentText v-html="$t('about_me.PARAGRAPH_1')" />
         <ContentText v-html="$t('about_me.PARAGRAPH_2')" />
         <ContentText v-html="$t('about_me.PARAGRAPH_3')" />
-        <v-layout
-          v-for="(skill, i) in skills"
-          :key="i"
-          style="color: #69A1BB;"
-          wrap
-          data-aos="fade-up"
-          data-aos-duration="700"
-          white--text
-          d-inline
-        >
-          <v-chip color="white">
-            <img
-              :src="require(`@/assets/logos/${skill.imageURL}`)"
-              class="logo"
-            />
-            {{ skill.name }}
-          </v-chip>
-        </v-layout>
+        <ContentText>
+          <v-layout
+            v-for="(skill, i) in skills"
+            :key="i"
+            style="color: #69A1BB;"
+            wrap
+            white--text
+            d-inline
+          >
+            <v-chip color="white">
+              <img
+                :src="require(`@/assets/logos/${skill.imageURL}`)"
+                class="logo"
+              />
+              {{ skill.name }}
+            </v-chip>
+          </v-layout>
+        </ContentText>
       </v-flex>
       <v-flex md6>
         <v-img :src="require('@/assets/about-me.jpg')" height="100%" />
