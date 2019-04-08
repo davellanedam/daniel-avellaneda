@@ -21,7 +21,13 @@
           white--text
           d-inline
         >
-          <v-chip color="white">{{ skill.name }}</v-chip>
+          <v-chip color="white">
+            <img
+              :src="require(`@/assets/logos/${skill.imageURL}`)"
+              class="logo"
+            />
+            {{ skill.name }}
+          </v-chip>
         </v-layout>
       </v-flex>
       <v-flex md6>
@@ -37,36 +43,53 @@ export default {
   data: () => ({
     skills: [
       {
-        name: 'HTML'
+        name: 'ES6',
+        imageURL: 'js.png'
       },
       {
-        name: 'CSS'
+        name: 'NodeJS',
+        imageURL: 'nodejs.png'
       },
       {
-        name: 'JavaScript'
+        name: 'VueJS',
+        imageURL: 'vue.png'
       },
       {
-        name: 'NodeJS'
+        name: 'HTML',
+        imageURL: 'html.png'
       },
       {
-        name: 'VueJS'
+        name: 'CSS',
+        imageURL: 'css.png'
       },
       {
-        name: 'PhalconPHP'
+        name: 'MongoDB',
+        imageURL: 'mongodb.png'
       },
       {
-        name: 'PHP'
+        name: 'MySQL',
+        imageURL: 'mysql.png'
       },
       {
-        name: 'MongoDB'
+        name: 'Redis',
+        imageURL: 'redis.png'
       },
       {
-        name: 'MySQL'
+        name: 'PhalconPHP',
+        imageURL: 'phalconphp.png'
       },
       {
-        name: 'Redis'
+        name: 'PHP',
+        imageURL: 'php.png'
       }
     ]
   })
 }
 </script>
+
+<style scoped>
+.logo {
+  height: 18px;
+  margin-right: 7px;
+}
+</style>
