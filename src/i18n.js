@@ -1,15 +1,7 @@
 import Vue from 'vue'
-import VueAnalytics from 'vue-analytics'
 import VueI18n from 'vue-i18n'
 import VueScrollTo from 'vue-scrollto'
 import VueObserveVisibility from 'vue-observe-visibility'
-
-// Use Google Analytics only in production mode
-if (process.env.NODE_ENV === 'production') {
-  Vue.use(VueAnalytics, {
-    id: 'UA-137710319-1'
-  })
-}
 
 Vue.use(VueI18n)
 
