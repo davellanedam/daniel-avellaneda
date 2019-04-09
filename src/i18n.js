@@ -4,11 +4,17 @@ import VueI18n from 'vue-i18n'
 import VueScrollTo from 'vue-scrollto'
 import VueObserveVisibility from 'vue-observe-visibility'
 
-Vue.use(VueAnalytics, {
-  id: 'UA-137710319-1'
-})
+// Use Google Analytics only in production mode
+if (process.env.NODE_ENV === 'production') {
+  Vue.use(VueAnalytics, {
+    id: 'UA-137710319-1'
+  })
+}
+
 Vue.use(VueI18n)
+
 Vue.use(VueScrollTo)
+
 Vue.use(VueObserveVisibility)
 
 function loadLocaleMessages() {
