@@ -14,6 +14,7 @@
 import Footer from '@/components/core/Footer.vue'
 import Toolbar from '@/components/core/Toolbar.vue'
 import Content from '@/components/core/Content.vue'
+import { page } from 'vue-analytics'
 
 export default {
   name: 'App',
@@ -63,7 +64,7 @@ export default {
   },
   methods: {
     track() {
-      this.$ga.page('/')
+      page('/')
     }
   },
   created() {

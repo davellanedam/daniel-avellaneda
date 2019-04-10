@@ -23,7 +23,6 @@ export default {
 
 <style>
 .subheading {
-  color: #cc147f !important;
   font-family: 'metropolis-regular', sans-serif !important;
   font-weight: bold !important;
 }
