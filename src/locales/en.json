@@ -12,7 +12,7 @@
     "PARAGRAPH_3": "<p>In addition to his professional work, Daniel is an active contributor to the open source community. He is expert in JavaScript and modern technologies such as:</p>"
   },
   "open_source": {
-    "TITLE": "Open Source",
+    "TITLE": "Open Source Projects",
     "PARAGRAPH_1": "<p>Daniel is an open source enthusiast and devotes his free time to building projects in this field.</p>",
     "PARAGRAPH_2": "<p>He is the creator and maintainer of <strong>\"node-express-mongodb-jwt-rest-api-skeleton\"</strong> and <strong>\"vue-skeleton-mvp\"</strong>.</p>",
     "PARAGRAPH_3": "<p>These projects are a \"starter web app kit\" for any developer who wants to build their own app without starting from scratch: API + Frontend </p>",

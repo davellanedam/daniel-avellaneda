@@ -12,7 +12,7 @@
     "PARAGRAPH_3": "<p>Además de su trabajo profesional, Daniel es un colaborador activo de la comunidad de código abierto. Es experto en JavaScript y tecnologías modernas como:</p>"
   },
   "open_source": {
-    "TITLE": "Código Abierto",
+    "TITLE": "Proyectos de Código Abierto",
     "PARAGRAPH_1": "<p>Daniel es un entusiasta del código abierto y dedica su tiempo libre a construir proyectos en este campo.</p>",
     "PARAGRAPH_2": "<p>Es el creador de <strong>\"node-express-mongodb-jwt-rest-api-skeleton\"</strong> y <strong>\"vue-skeleton-mvp\"</strong>.</p>",
     "PARAGRAPH_3": "<p>Estos proyectos son un \"combo aplicación web\" para cualquier desarrollador que quiera construir su propia aplicación sin comenzar desde cero: API + Frontend</p>",

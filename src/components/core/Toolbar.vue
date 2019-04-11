@@ -29,7 +29,7 @@
         app
         disable-resize-watcher
         temporary
-        width="150"
+        width="220"
       >
         <v-list>
           <v-list-tile>
