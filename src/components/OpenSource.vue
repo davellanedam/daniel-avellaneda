@@ -19,11 +19,11 @@
             <ContentText v-html="$t('open_source.PARAGRAPH_4')" />
             <ContentText>
               <h2>API (NodeJS, ExpressJS, MongoDB)</h2>
-              <div v-show="apiStars !== 0">
+              <div v-show="apiStars != 0">
                 <v-icon class="white--text">mdi-star</v-icon>
                 {{ apiStars }} {{ $t('open_source.STARS_ON_GITHUB') }}
               </div>
-              <div v-show="apiDownloads !== 0">
+              <div v-show="apiDownloads != 0">
                 <v-icon class="white--text">mdi-cloud-download</v-icon>
                 {{ apiDownloads }} {{ $t('open_source.DOWNLOADS_ON_NPM') }}
               </div>
@@ -41,11 +41,11 @@
                 >
               </div>
               <h2 class="mt-3">Frontend (VueJS)</h2>
-              <div v-show="frontendStars !== 0">
+              <div v-show="frontendStars != 0">
                 <v-icon class="white--text">mdi-star</v-icon>
                 {{ frontendStars }} {{ $t('open_source.STARS_ON_GITHUB') }}
               </div>
-              <div v-show="frontendDownloads !== 0">
+              <div v-show="frontendDownloads != 0">
                 <v-icon class="white--text">mdi-cloud-download</v-icon>
                 {{ frontendDownloads }} {{ $t('open_source.DOWNLOADS_ON_NPM') }}
               </div>
@@ -105,7 +105,7 @@ export default {
       'getFrontendDownloads'
     ])
   },
-  async created() {
+  async mounted() {
     try {
       await this.getApiStargazers()
       await this.getApiDownloads()
