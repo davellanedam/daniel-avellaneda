@@ -6,7 +6,6 @@ import App from '@/App.vue'
 import { store } from '@/store'
 import '@mdi/font/css/materialdesignicons.min.css'
 import i18n from '@/i18n'
-import ga from '@/ga'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import VueScrollTo from 'vue-scrollto'
@@ -28,7 +27,6 @@ Vue.use(VueObserveVisibility)
 new Vue({
   store,
   i18n,
-  ga,
   render: h => h(App),
   created() {
     store.dispatch('setLocale', store.getters.locale)
