@@ -1,13 +1,7 @@
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
-import VueScrollTo from 'vue-scrollto'
-import VueObserveVisibility from 'vue-observe-visibility'
 
 Vue.use(VueI18n)
-
-Vue.use(VueScrollTo)
-
-Vue.use(VueObserveVisibility)
 
 function loadLocaleMessages() {
   const locales = require.context(
