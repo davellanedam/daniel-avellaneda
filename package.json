@@ -29,11 +29,11 @@
     "vue-analytics": "^5.16.4",
     "vue-i18n": "^8.11.2",
     "vue-meta": "^1.6.0",
-    "vue-observe-visibility": "^0.4.3",
+    "vue-observe-visibility": "^0.4.4",
     "vue-resize-text": "^0.1.0",
     "vue-scrollto": "^2.15.0",
     "vuetify": "^1.5.14",
-    "vuex": "^3.1.0"
+    "vuex": "^3.1.1"
   },
   "devDependencies": {
     "@kazupon/vue-i18n-loader": "^0.3.0",
@@ -46,8 +46,8 @@
     "eslint-config-formidable": "^4.0.0",
     "eslint-plugin-vue": "^5.2.2",
     "fibers": "^4.0.1",
-    "husky": "^2.2.0",
-    "prettier": "^1.17.0",
+    "husky": "^2.3.0",
+    "prettier": "^1.17.1",
     "sass": "^1.20.1",
     "sass-loader": "^7.1.0",
     "stylus": "^0.54.5",
