@@ -28,7 +28,7 @@
     "vue": "^2.6.10",
     "vue-analytics": "^5.17.0",
     "vue-i18n": "^8.11.2",
-    "vue-meta": "^1.6.0",
+    "vue-meta": "^2.0.2",
     "vue-observe-visibility": "^0.4.4",
     "vue-resize-text": "^0.1.0",
     "vue-scrollto": "^2.15.0",
