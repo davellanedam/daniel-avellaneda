@@ -1,14 +1,6 @@
 import * as types from '@/store/mutation-types'
 import i18n from '@/i18n'
 
-const state = {
-  locale:
-    JSON.parse(localStorage.getItem('locale')) ||
-    navigator.language.slice(0, 2) ||
-    'en',
-  changedLocale: true
-}
-
 const getters = {
   locale: state => state.locale,
   changedLocale: state => state.changedLocale
@@ -33,6 +25,14 @@ const mutations = {
   [types.CHANGED_LOCALE](state, value) {
     state.changedLocale = value
   }
+}
+
+const state = {
+  locale:
+    JSON.parse(localStorage.getItem('locale')) ||
+    navigator.language.slice(0, 2) ||
+    'en',
+  changedLocale: true
 }
 
 export default {

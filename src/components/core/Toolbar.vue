@@ -95,7 +95,7 @@ export default {
   },
   methods: {
     visibilityChanged(isVisible) {
-      this.show = isVisible ? false : true
+      this.show = !isVisible
     },
     scrollTo(anchor) {
       this.sidebar = false

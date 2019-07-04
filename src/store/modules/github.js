@@ -1,11 +1,6 @@
 import * as types from '@/store/mutation-types'
 import api from '@/services/api/github'
 
-const state = {
-  apiStars: 0,
-  frontendStars: 0
-}
-
 const getters = {
   apiStars: state => state.apiStars,
   frontendStars: state => state.frontendStars
@@ -55,6 +50,11 @@ const mutations = {
   [types.FRONTEND_STARGAZERS](state, stars) {
     state.frontendStars = stars
   }
+}
+
+const state = {
+  apiStars: 0,
+  frontendStars: 0
 }
 
 export default {

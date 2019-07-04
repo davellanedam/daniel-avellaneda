@@ -1,11 +1,6 @@
 import * as types from '@/store/mutation-types'
 import api from '@/services/api/npm'
 
-const state = {
-  apiDownloads: 0,
-  frontendDownloads: 0
-}
-
 const getters = {
   apiDownloads: state => state.apiDownloads,
   frontendDownloads: state => state.frontendDownloads
@@ -55,6 +50,11 @@ const mutations = {
   [types.FRONTEND_DOWNLOADS](state, downloads) {
     state.frontendDownloads = downloads
   }
+}
+
+const state = {
+  apiDownloads: 0,
+  frontendDownloads: 0
 }
 
 export default {
