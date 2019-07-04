@@ -42,7 +42,7 @@
     "@vue/cli-service": "^3.9.0",
     "@vue/eslint-config-prettier": "^4.0.1",
     "babel-eslint": "^10.0.2",
-    "eslint": "^5.16.0",
+    "eslint": "^6.0.1",
     "eslint-config-formidable": "^4.0.0",
     "eslint-plugin-vue": "^5.2.3",
     "fibers": "^4.0.1",
