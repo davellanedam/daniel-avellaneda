@@ -112,7 +112,7 @@ export default {
       await this.getFrontendStargazers()
       await this.getFrontendDownloads()
     } catch (error) {
-      console.log(error)
+      console.error(error)
     }
   }
 }
