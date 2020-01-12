@@ -35,7 +35,7 @@
           <v-flex xs12 text-xs-center mb-3>
             <a
               target="_blank"
-              href="https://api.whatsapp.com/send?phone=573162396392&text=daniel-avellaneda.com"
+              href="https://api.whatsapp.com/send?phone=6476311979&text=daniel-avellaneda.com"
             >
               <v-icon
                 size="52"

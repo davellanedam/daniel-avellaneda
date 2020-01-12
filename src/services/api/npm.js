@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { format } from 'date-fns'
 
-const today = format(new Date(), 'YYYY-MM-DD')
+const today = format(new Date(), 'yyyy-MM-dd')
 
 export default {
   getApiDownloads() {
