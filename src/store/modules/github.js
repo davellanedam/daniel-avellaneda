@@ -2,8 +2,8 @@ import * as types from '@/store/mutation-types'
 import api from '@/services/api/github'
 
 const getters = {
-  apiStars: state => state.apiStars,
-  frontendStars: state => state.frontendStars
+  apiStars: (state) => state.apiStars,
+  frontendStars: (state) => state.frontendStars
 }
 
 const actions = {
@@ -11,14 +11,14 @@ const actions = {
     return new Promise((resolve, reject) => {
       api
         .getApiStargazers()
-        .then(response => {
+        .then((response) => {
           if (response.status === 200) {
             commit(types.API_STARGAZERS, response.data.stargazers_count)
             resolve()
           }
         })
         // eslint-disable-next-line no-unused-vars
-        .catch(error => {
+        .catch((error) => {
           commit(types.API_STARGAZERS, 0)
           reject()
         })
@@ -28,14 +28,14 @@ const actions = {
     return new Promise((resolve, reject) => {
       api
         .getFrontendStargazers()
-        .then(response => {
+        .then((response) => {
           if (response.status === 200) {
             commit(types.FRONTEND_STARGAZERS, response.data.stargazers_count)
             resolve()
           }
         })
         // eslint-disable-next-line no-unused-vars
-        .catch(error => {
+        .catch((error) => {
           commit(types.FRONTEND_STARGAZERS, 0)
           reject()
         })

@@ -1,5 +1,5 @@
 const getters = {
-  appTitle: state => state.appTitle
+  appTitle: (state) => state.appTitle
 }
 
 const state = {

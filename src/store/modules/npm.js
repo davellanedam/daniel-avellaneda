@@ -2,8 +2,8 @@ import * as types from '@/store/mutation-types'
 import api from '@/services/api/npm'
 
 const getters = {
-  apiDownloads: state => state.apiDownloads,
-  frontendDownloads: state => state.frontendDownloads
+  apiDownloads: (state) => state.apiDownloads,
+  frontendDownloads: (state) => state.frontendDownloads
 }
 
 const actions = {
@@ -11,14 +11,14 @@ const actions = {
     return new Promise((resolve, reject) => {
       api
         .getApiDownloads()
-        .then(response => {
+        .then((response) => {
           if (response.status === 200) {
             commit(types.API_DOWNLOADS, response.data.downloads)
             resolve()
           }
         })
         // eslint-disable-next-line no-unused-vars
-        .catch(error => {
+        .catch((error) => {
           commit(types.API_DOWNLOADS, 0)
           reject()
         })
@@ -28,14 +28,14 @@ const actions = {
     return new Promise((resolve, reject) => {
       api
         .getFrontendDownloads()
-        .then(response => {
+        .then((response) => {
           if (response.status === 200) {
             commit(types.FRONTEND_DOWNLOADS, response.data.downloads)
             resolve()
           }
         })
         // eslint-disable-next-line no-unused-vars
-        .catch(error => {
+        .catch((error) => {
           commit(types.FRONTEND_DOWNLOADS, 0)
           reject()
         })

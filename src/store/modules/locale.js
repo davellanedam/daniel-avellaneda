@@ -2,8 +2,8 @@ import * as types from '@/store/mutation-types'
 import i18n from '@/i18n'
 
 const getters = {
-  locale: state => state.locale,
-  changedLocale: state => state.changedLocale
+  locale: (state) => state.locale,
+  changedLocale: (state) => state.changedLocale
 }
 
 const actions = {
