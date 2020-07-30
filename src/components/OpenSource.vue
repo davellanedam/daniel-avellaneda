@@ -111,8 +111,9 @@ export default {
       await this.getApiDownloads()
       await this.getFrontendStargazers()
       await this.getFrontendDownloads()
+      // eslint-disable-next-line no-unused-vars
     } catch (error) {
-      console.error(error)
+      // console.error(error)
     }
   }
 }
