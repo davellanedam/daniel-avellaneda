@@ -15,7 +15,7 @@
           <v-layout
             v-for="(skill, i) in skills"
             :key="i"
-            style="color: #69a1bb;"
+            style="color: #69a1bb"
             wrap
             white--text
             d-inline

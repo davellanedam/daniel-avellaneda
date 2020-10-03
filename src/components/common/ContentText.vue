@@ -1,7 +1,7 @@
 <template>
   <p
     class="content font-weight-light"
-    style="line-height: 1.7 !important;"
+    style="line-height: 1.7 !important"
     data-aos="fade-up"
     data-aos-duration="700"
   >
